@@ -14,6 +14,6 @@ To determine the appropriate V value, I identified the mode of the V values in f
 This approach improved lane detection range in scenarios with significant illumination changes, such as entering or exiting a tunnel, compared to single RoI-based image processing.
 ![compare with single-RoI](https://github.com/kjin3386/Segmented_ROI_Lane_Detection/blob/main/comparsion.png)
 
-![Example of lane Detection only using HSV threshold]([https://github.com/kjin3386/Segmented_ROI_Lane_Detection/blob/main/Result_example.png](https://github.com/kjin3386/Segmented_ROI_Lane_Detection/blob/main/result_example.png)
+![Example of lane Detection only using HSV threshold](https://github.com/kjin3386/Segmented_ROI_Lane_Detection/blob/main/Result_example.png](https://github.com/kjin3386/Segmented_ROI_Lane_Detection/blob/main/result_example.png)
 
 
