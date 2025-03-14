@@ -14,7 +14,10 @@
 <br><br>
 ###### This approach improved lane detection range in scenarios with significant illumination changes, such as entering or exiting a tunnel, compared to single RoI-based image processing.
 ![compare with single-RoI](https://github.com/kjin3386/Segmented_ROI_Lane_Detection/blob/main/comparsion.png)
--compared with singe RoI
+-Compared with single-RoI and proposed method.
+-Left : Single RoI, Right : Fixed V value for each Segmented RoI
 <br><br>
 ![Example of lane Detection only using HSV threshold](https://github.com/kjin3386/Segmented_ROI_Lane_Detection/blob/main/result_example.png)
--Example of lane Detection using only HSV threshold
+-Example of lane Detection using only HSV threshold.
+-Top : Entering Tunnel (original image, single RoI, segmented RoI)
+-Bottom : Exiting Tunnel (original image, single RoI, segmented RoI)
