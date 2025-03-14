@@ -1,6 +1,7 @@
 # Segmented RoI for robust lane detection under varying illumination conditions.
 ##### This repository contains the source code for my paper:
 ##### CICS'24 [August, 2024] (https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12051765)
+##### Sejong Univ. INCSL Lab
 ------------
 ### Overview
 ##### This project implements a lane detection algorithm designed to improve robustness under varying illumination conditions.  
