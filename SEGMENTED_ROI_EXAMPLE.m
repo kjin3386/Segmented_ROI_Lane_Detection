@@ -1,10 +1,11 @@
-%% fix the mean V Value for each RoIs
+%% fix the mean V Value for each segmented RoIs
 %----------------------------------------------------------------------
 %
 % 변수 k 를 이용한 단순 계산으로 각 roi당 평균 조도값을 동일하게 조정.
+% apply k variable for fixing each RoI's V value.
 % 
 % 원근법을 고려하여 roi 설정.
-%
+% set RoI considering perspective.
 %----------------------------------------------------------------------
 
 videoFile = 'Tunnelx10.mp4'; 
@@ -155,13 +156,13 @@ while hasFrame(video)
 end
 
 
-%% segment roi 미적용 (비교분석 용)
+%% sinle RoI for comparsion1.
 
 %----------------------------------------------------
 % k 값 미적용 
-%
+% didn't apply k value.
 % 고정된 임계값 + 고정된 조도값 + 미분할 roi
-%
+% fixed threshold, fix V value, singe RoI
 %
 %------------------------------------------
 
@@ -221,13 +222,13 @@ while hasFrame(video)
     
 end
 
-%% segment roi 미적용2 (비교분석 용)
+%% single RoI for comparsion2.
 
 %----------------------------------------------------
 % k 값 적용
-%
+% Apply k variable.
 % 고정된 임계값 + 변동되는 조도값 + 미분할 roi
-%
+% fixed threshold, unfixed V value, single RoI
 %
 %------------------------------------------
 
