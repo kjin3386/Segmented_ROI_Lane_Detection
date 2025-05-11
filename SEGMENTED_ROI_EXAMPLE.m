@@ -1,7 +1,7 @@
 %% fix the mean V Value for each segmented RoIs
 %----------------------------------------------------------------------
 %
-% 변수 k 를 이용한 단순 계산으로 각 roi당 평균 조도값을 동일하게 조정.
+% 변수 k 를 이용한 계산으로 각 roi당 평균 조도값을 동일하게 조정.
 % apply k variable for fixing each RoI's V value.
 % 
 % 원근법을 고려하여 roi 설정.
